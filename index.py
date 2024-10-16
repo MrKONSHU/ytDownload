@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return open('index.html').read()
+    return open('https://mrkonshu.github.io/ytDownload/').read()
 
 @app.route('/download', methods=['POST'])
 def download_video():
